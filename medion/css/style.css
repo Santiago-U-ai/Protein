@@ -58,7 +58,11 @@ body {
 .hero_area {
   height: 100vh;
   background-image: url(../images/hero-bg.jpg);
+  background-position: center;
+  background-size: cover;
   background-repeat: no-repeat;
+  
+
 }
 
 .sub_page .hero_area {
@@ -81,7 +85,7 @@ body {
 }
 
 .header_section .top_contact-container .tel_container a {
-  color: #ffffff;
+  color:rgb(162,198,23);
   text-transform: uppercase;
   display: -webkit-box;
   display: -ms-flexbox;
@@ -204,7 +208,7 @@ a:focus {
 .navbar-brand span {
   font-size: 20px;
   font-weight: 700;
-  color: #ffffff;
+  color: rgb(162,198,23);
   margin-top: 5px;
 }
 
@@ -229,11 +233,11 @@ a:focus {
   padding-left: 15px;
   text-transform: uppercase;
   height: 35px;
-  background-color: #ffffff;
+  background-color: rgb(162,198,23);
 }
 
 .custom_nav-container .form-inline button {
-  background-color: #ffffff;
+  background-color: rgb(162,198,23);
 }
 
 .custom_nav-container .navbar-toggler {
@@ -261,6 +265,12 @@ a:focus {
 .slider_section .img-box img {
   width: 100%;
 }
+.slider_section .img-box2 img {
+  width: 100%;
+}
+.slider_section .img-box3 img {
+  width: 100%;
+}
 
 .slider_section .detail-box h1 {
   color: #2c2c2c;
@@ -268,12 +278,12 @@ a:focus {
 
 .slider_section .detail-box h1 span {
   font-size: 4rem;
-  color: #ffffff;
+  color: #505050;
   font-weight: bold;
 }
 
 .slider_section .detail-box p {
-  color: #ffffff;
+  color: rgb(162,198,23);
 }
 
 .slider_section .detail-box a {
@@ -765,8 +775,11 @@ a:focus {
 
 .contact_section .detail-box {
   background-image: url(../images/contact-bg.jpg);
-  color: #ffffff;
-  padding: 140px 15%;
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: cover;
+  color: #ff0000;
+  padding: 150px 15%;
   text-align: center;
   margin-top: 30px;
 }
